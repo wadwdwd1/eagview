@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 const bot = mineflayer.createBot({
   host: 'test.wadmc.site', // Minecraft server address (localhost for local testing)
   port: 25565, // Default port for Minecraft
-  username: 'Bot',
+  username: 'ignore_me_im_a_bot',
 });
 
 // Track progress of mining
